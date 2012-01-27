@@ -11,6 +11,7 @@
         <link href='http://fonts.googleapis.com/css?family=Special+Elite' rel='stylesheet' type='text/css' />
     </head>
     <body>
+        <a href="<?php echo url_for('rss/rss')?>"><div id="RSS" style="padding-left: 20px; line-height: 20px;">RSS</div></a>
         <div class="pojemnik">
             <header>
                 <h1><a href="#">clipboard</a></h1>

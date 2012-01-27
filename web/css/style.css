@@ -174,3 +174,13 @@ footer a:hover{
 .regulamin p{
     text-align: justify;
 }
+
+#RSS{
+    margin-left: 5px;
+    ;
+    background-image: url('../images/rss.png');
+    background-repeat: no-repeat;
+    font-weight: bold;
+    padding-right: 16px;
+    margin-right:1264px;
+}
