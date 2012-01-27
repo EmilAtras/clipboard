@@ -6,3 +6,5 @@
 /.settings
 /plugins/.channels/
 /plugins/.registry/
+/plugins_bak/.channels/
+/plugins_bak/.registry/

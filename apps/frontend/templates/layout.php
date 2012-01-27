@@ -23,17 +23,16 @@
                     <li><a href="<?php echo url_for('main/regulamin')?>">Regulamin</a></li>
                     <li><a href="<?php echo url_for('statistics/index')?>">Statystyka</a></li>
                     <li><a href="<?php echo url_for('main/show')?>">Kontakt</a></li>
+                    <li><a href="<?php echo url_for('main/oserwisie')?>">O serwisie</a></li>
                 </ul>
-            </nav>
-            <?php include_component('main','ostatnie') ?>
+            </nav>     
             <div class="content">
                 <?php echo $sf_content ?>
             </div>
             <br class="clearing" />
-            <div class="push"> </div>
-        </div>  
-                    <footer>
+            <footer>
                 <p>&copy; Copyright by KUL ZendFramework Programmers</p>
             </footer>
+        </div>          
     </body>
 </html>
